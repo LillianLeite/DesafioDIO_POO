@@ -1,16 +1,10 @@
 package java.iPhone;
 
-public class ReprodutorMusical {
+public interface ReprodutorMusical {
 
-    public void tocarMusica() {
-        System.out.println("Tocando música!");
-    }
+    public void tocarMusica();
 
-    public void pausarMusica() {
-        System.out.println("Música pausada!");
-    }
+    public void pausarMusica();
 
-    public void selecionarMusica() {
-        System.out.println("Música selecionada!");
-    }
+    public void selecionarMusica();
 }

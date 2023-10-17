@@ -1,16 +1,10 @@
 package java.iPhone;
 
-public class NavegadorNaInternet {
+public interface NavegadorNaInternet {
 
-    public void exibirPagina() {
-        System.out.println("Página aberta!");
-    }
+    public void exibirPagina();
 
-    public void adicionarNovaAba() {
-        System.out.println("Nova aba aberta!");
-    }
+    public void adicionarNovaAba();
 
-    public void atualizarPagina() {
-        System.out.println("Página atualizada!");
-    }
+    public void atualizarPagina();
 }
